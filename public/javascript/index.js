@@ -56,6 +56,10 @@ $(document).ready(function() {
               "</div>",
               "</div>"
              ].join(""));
+             //we attach the article's id to the jquery 
+
+        panel.data("_id", article._id);
+
 
         
     }
